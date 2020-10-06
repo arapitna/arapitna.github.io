@@ -1,6 +1,7 @@
 {
     "version": "1.7",
     "octreeDir": "data",
+	"projection": "+proj=somerc +lat_0=12.632895 +lon_0=120.902848 +k_0=1 +x_0=0 +y_0=0 +ellps=bessel +towgs84=674.4,15.1,405.3,0,0,0,0 +units=m +no_defs",
     "points": 145885681,
     "boundingBox": {
         "lx": -972.679742,
