@@ -64,8 +64,7 @@
 			viewer.toggleSidebar();
 		});
 		
-
-		Potree.loadPointCloud("pointclouds/Bato-Tabao/cloud.js", "BatoTabao-Calintaan", e => {
+		Potree.loadPointCloud("pointclouds/Bato-Tabao/cloud.js", "Bato-Tabao", e => {
 			let pointcloud = e.pointcloud;
 			let material = pointcloud.material;
 			viewer.scene.addPointCloud(pointcloud);
@@ -75,6 +74,8 @@
 			material.shape = Potree.PointShape.SQUARE;
 			viewer.fitToScreen();
 		});
+		
+
 		
 	</script>
 	
